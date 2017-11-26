@@ -59,4 +59,5 @@ def winner(board)
   # return nil
   if win_combination = won?(board)
     board[win_combination[0]]
+  end
 end
